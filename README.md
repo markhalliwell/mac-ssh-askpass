@@ -17,7 +17,11 @@ Then you probably need this script. Mac OS X does not prompt for a password outs
 
 ### Usage
 
->    1. You can install this script using by typing `sudo ./INSTALL` in the directory of the download files (easiest/automatic)
+>    1. You can install this script using the `INSTALL` file included with the download (easiest/automatic)
+>       1. Open Terminal `/Applications/Utilities/Terminal.app`
+>       2. Type `sudo`` ` (with the space at the end)
+>       3. Drag the `INSTALL` file onto `Terminal` and press `return`
+>       4. Enter your password
 
 >    2. You can install this script manually:
 >       1. Copy the source code located below
