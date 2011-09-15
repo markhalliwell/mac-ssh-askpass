@@ -1,0 +1,19 @@
+#!/bin/bash
+# Script: INSTALL
+# Author: Mark Carver
+# Created: 2011-09-14
+# Copyright (c) 2011 Beyond Eden Development, LLC. All rights reserved.
+
+if [[ $EUID -ne 0 ]]; then
+  echo "ERROR: This installation must be run as 'root'. Try using the command \`sudo INSTALL\`." &>/dev/stderr;
+  exit 1
+else
+  sshaskpass='/usr/libexec/ssh-askpass';
+  if [[ $(cp ./ssh-askpass ${sshaskpass}) -eq 0 ]] && [[ $(chmod +x ${sshaskpass}) -eq 0 ]]; then
+    echo "Successfully installed '${sshaskpass}'.";
+    ${sshaskpass} "$(printf "Testing ssh-askpass!\n\nNOTE: Test will output to terminal!")";
+    exit $?;
+  else
+    echo "Failed to install '${sshaskpass}'. Check to make sure you have write abilities for '$(dirname ${sshaskpass}) and then try again." &>/dev/stderr; exit 1;
+  fi
+fi
