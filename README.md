@@ -4,15 +4,35 @@ Author: Mark Carver
 Created: 2011-09-14  
 Copyright (c) 2011 Beyond Eden Development, LLC. All rights reserved.
 
-Based from author: Joseph Mocker, Sun Microsystems  
+Based off script from author: Joseph Mocker, Sun Microsystems  
 [http://blogs.oracle.com/mock/entry/and\_now\_chicken\_of\_the](http://blogs.oracle.com/mock/entry/and\_now\_chicken\_of\_the)
+
+If you've gotten this error:
+
+        remote: ssh_askpass: exec(/usr/libexec/ssh-askpass): No such file or directory
+
+Then you probably need this script. Mac OS X does not prompt for a password outside of Terminal when connecting via SSH (for security reasons). This script grants any application the ability to prompt the user for a password via an AppleScript dialog.
 
 ---
 
 ### Usage
-Install this script as root
 
-> `sudo ./INSTALL`
+>    1. You can install this script using by typing `sudo ./INSTALL` in the directory of the download files (easiest/automatic)
+
+>    2. You can install this script manually:
+>       1. Copy the source code located below
+>       2. Open Terminal `/Applications/Utilities/Terminal.app`
+>       3. Type `sudo vi /usr/libexec/ssh-askpass`
+>       4. Enter your password
+>       5. Type `i` to go into edit mode
+>       6. Press `⌘v` to paste the code
+>       7. Press `esc` to go out of edit mode
+>       8. Type `:` then `w` and press `return` to write the file
+>       9. Type `:` then `x` and press `return` to exit vi
+>       10. Type `sudo chmod +rx /usr/libexec/ssh-askpass` to make the script executable
+>       11. Test the script! Type `/usr/libexec/ssh-askpass`
+>
+>_NOTE: You must run as `root` or precede the commands with `sudo` when using `INSTALL` or `vi`. The directory `/usr/libexec` is owned by `root`._
 
 ---
 
