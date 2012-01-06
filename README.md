@@ -5,7 +5,7 @@ Created: 2011-09-14
 Copyright (c) 2011 Beyond Eden Development, LLC. All rights reserved.
 
 Based off script from author: Joseph Mocker, Sun Microsystems  
-[http://blogs.oracle.com/mock/entry/and\_now\_chicken\_of\_the](http://blogs.oracle.com/mock/entry/and\_now\_chicken\_of\_the)
+[http://blogs.oracle.com/mock/entry/and_now_chicken_of_the](http://blogs.oracle.com/mock/entry/and_now_chicken_of_the)
 
 If you've gotten this error:
 
