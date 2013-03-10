@@ -73,6 +73,7 @@ CODE=("on GetCurrentApp()");
 CODE=(${CODE[*]} "tell application \"System Events\" to get short name of first process whose frontmost is true");
 CODE=(${CODE[*]} "end GetCurrentApp");
 CODE=(${CODE[*]} "tell application GetCurrentApp()");
+CODE=(${CODE[*]} "activate");
 CODE=(${CODE[*]} "display dialog \"${@:-$TEXT}\" default answer \"\" with title \"${TITLE}\" with icon caution with hidden answer");
 CODE=(${CODE[*]} "text returned of result");
 CODE=(${CODE[*]} "end tell");
