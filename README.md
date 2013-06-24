@@ -1,7 +1,7 @@
 # ssh-askpass (for Mac OS X)
 
-Author: Mark Carver
-Created: 2011-09-14
+Author: Mark Carver  
+Created: 2011-09-14  
 Copyright (c) 2011 Beyond Eden Development, LLC. All rights reserved.
 
 Based off script from author: Joseph Mocker, Sun Microsystems
