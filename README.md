@@ -4,7 +4,7 @@ Author: Mark Carver
 Created: 2011-09-14  
 Copyright (c) 2011 Beyond Eden Development, LLC. All rights reserved.
 
-Based off script from author: Joseph Mocker, Sun Microsystems  
+Based off script from author: Joseph Mocker, Sun Microsystems
 [http://blogs.oracle.com/mock/entry/and_now_chicken_of_the](http://blogs.oracle.com/mock/entry/and_now_chicken_of_the)
 
 If you've gotten this error:
@@ -49,14 +49,15 @@ If you plan on manually installing this script, please note that you will have t
 
 ### Source
 
-```#!/bin/bash
+```
+#!/bin/bash
 # Script: ssh-askpass
 # Author: Mark Carver
 # Created: 2011-09-14
 # Copyright (c) 2011 Beyond Eden Development, LLC. All rights reserved.
 
 # A ssh-askpass command for Mac OS X
-# Based from author: Joseph Mocker, Sun Microsystems  
+# Based from author: Joseph Mocker, Sun Microsystems
 # http://blogs.oracle.com/mock/entry/and_now_chicken_of_the
 
 # To use this script:
@@ -81,4 +82,5 @@ SCRIPT="/usr/bin/osascript"
 for LINE in ${CODE[*]}; do
     SCRIPT="${SCRIPT} -e $(printf "%q" "${LINE}")";
 done;
-eval "${SCRIPT}";```
+eval "${SCRIPT}";
+```
