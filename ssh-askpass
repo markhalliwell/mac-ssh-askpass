@@ -2,7 +2,7 @@
 # Script: ssh-askpass
 # Author: Mark Carver
 # Created: 2011-09-14
-# Copyright (c) 2011 Beyond Eden Development, LLC. All rights reserved.
+# Licensed under GPL 3.0
 
 # A ssh-askpass command for Mac OS X
 # Based from author: Joseph Mocker, Sun Microsystems  
