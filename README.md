@@ -2,7 +2,7 @@
 
 Author: Mark Carver  
 Created: 2011-09-14  
-Copyright (c) 2011 Beyond Eden Development, LLC. All rights reserved.
+Licensed under GPL 3.0
 
 Based off script from author: Joseph Mocker, Sun Microsystems
 [http://blogs.oracle.com/mock/entry/and_now_chicken_of_the](http://blogs.oracle.com/mock/entry/and_now_chicken_of_the)
@@ -54,7 +54,7 @@ If you plan on manually installing this script, please note that you will have t
 # Script: ssh-askpass
 # Author: Mark Carver
 # Created: 2011-09-14
-# Copyright (c) 2011 Beyond Eden Development, LLC. All rights reserved.
+# Licensed under GPL 3.0
 
 # A ssh-askpass command for Mac OS X
 # Based from author: Joseph Mocker, Sun Microsystems
