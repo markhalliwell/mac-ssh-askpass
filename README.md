@@ -1,5 +1,13 @@
 # ssh-askpass (for Mac OS X)
 
+> Note: this project has been deprecated in favor of the brew package: https://github.com/theseal/ssh-askpass
+```bash
+brew tap theseal/ssh-askpass
+brew install ssh-askpass
+```
+
+---
+
 Author: Mark Carver  
 Created: 2011-09-14  
 Licensed under GPL 3.0
